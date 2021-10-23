@@ -1,18 +1,20 @@
-# generatPasword
-### Получить список всех используемых библиотек в проекте
+# GeneratPassword
+Получить список всех используемых библиотек в проекте:
 ```bash
 pip list
 ```
+
 Коммит:
 ```bash
-git commit -m "New version 0.0.0"
+git commit -a -m "New version 0.0.0"
 ```
-Указать версию 
+
+Указать версию сборки:
 ```bash
 git tag v0.0.0
 ```
 
-Отправить новую версию:
+Отправить новую версию сборки:
 ```bash
 git push
 git push origin --tags
